@@ -1,0 +1,147 @@
+section {
+  text-align: center;
+  margin: 1em;
+  position: relative !important;
+  padding-bottom: 10px;
+}
+
+.label {
+  position: absolute;
+  bottom: 5px;
+  left: 7px;
+  font-size: 14px;
+  opacity: 0.54;
+}
+
+.fabric-ui {
+}
+
+.fabric-ui .md-raised.md-button {
+  align-items: flex-start;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(244, 244, 244);
+  background-image: none;
+  background-origin: padding-box;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-repeat-x: ;
+  background-repeat-y: ;
+  initial<style>…</style>button background-size: auto;
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 600;
+  height: 32px;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  min-width: 80px;
+  outline-color: rgba(0, 0, 0, 0);
+  outline-style: none;
+  outline-width: 0px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 0px;
+  position: relative;
+  text-align: center;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: none;
+  text-transform: none;
+  user-select: none;
+  vertical-align: top;
+  width: 137px;
+  word-spacing: 0px;
+  writing-mode: horizontal-tb;
+  -webkit-appearance: none;
+  -webkit-box-direction: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-border-image: none;
+
+  margin: 6px 8px 6px 8px;
+  box-shadow: none;
+}
+
+.fabric-ui .md-raised.md-button:not([disabled]):hover {
+  background-color: #eaeaea;
+  /*color: #000000;*/
+  box-shadow: none;
+}
+
+
+.fabric-ui .md-raised.md-button:not([disabled]):active {
+  background-color: #0078d7;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+/* md-primary */
+
+.fabric-ui .md-raised.md-primary {
+  background-color: rgb(0, 120, 215);
+  color: rgb(255, 255, 255);
+  box-shadow: none;
+}
+
+.fabric-ui .md-raised.md-primary:not([disabled]):hover {
+  background-color: #005a9e;
+  box-shadow: none;
+}
+
+.fabric-ui .md-raised.md-primary:not([disabled]):active {
+  background-color: #0078d7;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+
+
+.fabric-ui .md-raised.md-warn {
+  /*background-color: #fff4ce; // warning
+  color: #767676; // warning
+
+  background-color: #fed9cc;// severe-warning
+  color: #d83b01; // severe-warning*/
+
+  background-color: #fde7e9; // error
+  color: #a80000; // error
+}
+
+.fabric-ui .md-raised:disabled {
+  background-color: rgb(244, 244, 244);
+  color: rgb(166, 166, 166);
+}
